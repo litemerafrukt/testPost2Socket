@@ -21,7 +21,7 @@ app.post('/broadcast', (request, response) => {
 
 io.on('connection', (socket) => {
     console.log('incomming connection');
-    io.emit('message', {"message":"you are now connected to server"});
+    io.emit('message', {"message":"someone connected to server"});
 
     socket.on('disconnect', function() {
       console.log('someone disconnected');
