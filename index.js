@@ -1,5 +1,3 @@
-// Laracsts tutorial on socket.io
-
 /* eslint-env node */
 
 const app = require('express')();
